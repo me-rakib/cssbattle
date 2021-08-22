@@ -1,0 +1,37 @@
+<div class="a"><div class="b"></div></div><div class="c"></div>
+
+<style>body {
+    background: #1A4341;
+}
+
+div {
+    position: absolute
+}
+
+.a {
+    width: 75;
+    height: 150;
+    background: #998235;
+    border-radius: 75px 0 0 75px;
+    top: 25%;
+    left: 31.2%
+}
+
+.b {
+    width: 30;
+    height: 30;
+    background: #0B2429;
+    border-radius: 100%;
+    top: 30;
+    left: 30
+}
+
+.c {
+    background: #F3AC3C;
+    width: 100;
+    height: 100;
+    border-radius: 0 100% 0 0;
+    top: 50;
+    left: 50%
+}
+</style>
