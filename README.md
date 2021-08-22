@@ -25,6 +25,7 @@ Here is the list:
 * [#47-Corona-Virus](./%2347-Corona-Virus.htm)
 * [#48-Wash-Your-Hands](./%2348-Wash-Your-Hands.htm)
 * [#49-Stay-At-Home](./%2349-Stay-At-Home.htm)
+* [#5-Acid-Rain](./%235-Acid-Rain.htm)
 * [#50-Use-Hand-Sanitizer](./%2350-Use-Hand-Sanitizer.htm)
 * [#51-Wear-A-Mask](./%2351-Wear-A-Mask.htm)
 * [#52-Break-the-Chain](./%2352-Break-the-Chain.htm)

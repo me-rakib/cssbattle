@@ -1,0 +1,28 @@
+<div>
+    <style>
+        body {
+            background: #0B2429
+        }
+
+        div {
+            width: 120;
+            height: 120;
+            background: #F3AC3C;
+            border-radius: 120px 0 120px 120px;
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            box-shadow: 60px -60px #998235
+        }
+
+        div::after {
+            content: '';
+            position: absolute;
+            width: 120;
+            height: 120;
+            background: #F3AC3C;
+            border-radius: 100%;
+            top: -120;
+            left: 120;
+            z-index: -1
+        }
