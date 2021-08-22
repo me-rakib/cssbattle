@@ -24,7 +24,7 @@ text = '''# CSSBattle Solutions #\nThis repository contains all the solutions I 
 file_to_write.write(text)
 
 for i in arr_we_need:
-    file_to_write.write(f'* [{i.replace(".htm", "")}](/blob/main/{i})\n')
+    file_to_write.write(f'* [{i.replace(".htm", "")}](./{i.replace("#","%231")})\n')
 
 # closing file
 file_to_write.close()
