@@ -1,0 +1,40 @@
+<div class="a">
+    <div class="b"></div>
+    <div class="c"></div>
+</div>
+<style>
+    body {
+        background: #293462
+    }
+
+    div {
+        position: absolute;
+    }
+
+    .a {
+        width: 200px;
+        height: 200px;
+        background: #FFF1C1;
+        border-radius: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+    }
+
+    .b,
+    .c {
+        width: 0;
+        height: 0;
+        border-left: 145px solid transparent;
+        border-right: 145px solid transparent;
+        border-bottom: 145px solid #FE5F55;
+        top: 29.7%;
+        left: -1.9%;
+    }
+
+    .c {
+        top: 129;
+        left: -116;
+    }
+</style>

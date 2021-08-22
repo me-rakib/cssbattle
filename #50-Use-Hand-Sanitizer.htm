@@ -1,0 +1,102 @@
+<div class="c"></div>
+<div class="a">
+    <div class="b">
+        <style>
+            body {
+                background: #1A4341;
+            }
+
+            ::before,
+            ::after {
+                position: absolute;
+                content: '';
+            }
+
+            div {
+                position: absolute;
+            }
+
+            .a {
+                width: 100px;
+                height: 140px;
+                background: #F3AC3C;
+                border-radius: 20px;
+                top: 36.5%;
+                left: 37.5%
+            }
+
+            .a::before {
+                width: 50%;
+                height: 20;
+                background: #F3AC3C;
+                left: 25;
+                top: -20;
+                border-radius: 10px 10px 0 0
+            }
+
+            .a::after {
+                width: 20;
+                height: 20;
+                background: #F3AC3C;
+                left: 40;
+                top: -40;
+            }
+
+            .b {
+                width: 50%;
+                height: 110;
+                background: #998235;
+                bottom: 0;
+                border-radius: 50px 50px 0 40px
+            }
+
+            .b::before {
+                width: 50;
+                height: 100;
+                background: #998235;
+                left: 100%;
+                bottom: 0;
+                border-radius: 50px 50px 40px 0
+            }
+
+            .b::after {
+                width: 50;
+                height: 80;
+                background: #F3AC3C;
+                left: 100%;
+                top: -30;
+                border-radius: 0 40px 50px 50px
+            }
+
+            .c {
+                width: 150;
+                height: 20;
+                background: #F3AC3C;
+                top: 50;
+                left: 150;
+                border-radius: 10px
+            }
+
+            .c::before {
+                width: 20;
+                height: 40;
+                background: #F3AC3C;
+                left: 86.5%;
+                border-radius: 10px
+            }
+
+            .c::after,
+            body::after {
+                width: 20;
+                height: 20;
+                background: #998235;
+                left: 86.5%;
+                top: 50;
+                border-radius: 10px
+            }
+
+            body::after {
+                left: 70%;
+                top: 43.2%
+            }
+        </style>

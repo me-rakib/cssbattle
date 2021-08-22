@@ -1,0 +1,95 @@
+<div class="l"></div>
+<div class="l2"></div>
+<div class="d"></div>
+<div class="l1"></div>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background: #F3AC3C;
+    }
+
+    .d {
+        width: 100px;
+        height: 100px;
+        background: #998235;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-85%, -50%)
+    }
+
+    .d::before {
+        content: " ";
+        width: 118px;
+        height: 118px;
+        border-radius: 50%;
+        background: #998235;
+        position: absolute;
+        transform: translate(-60%, -8%);
+    }
+
+    .d::after {
+        content: " ";
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 5px solid #F3AC3C;
+        background: #1A4341;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .l {
+        width: 101px;
+        height: 20px;
+        background: #1A4341;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(14%, -50%);
+    }
+
+    .l1 {
+        width: 40px;
+        height: 10px;
+        border-radius: 10px;
+        background: #1A4341;
+        position: absolute;
+        transform: rotate(90deg);
+        top: 48%;
+        left: 17.5%;
+    }
+
+    .l2 {
+        width: 40px;
+        height: 30px;
+        border-radius: 10px;
+        background: #998235;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(285%, -50%)
+    }
+
+    .l2::after,
+    .l2::before {
+        content: " ";
+        width: 20px;
+        height: 4px;
+        border-radius: 5px;
+        background: #1A4341;
+        position: absolute;
+        left: 10px;
+        top: 7.5px
+    }
+
+    .l2::before {
+        top: 18px;
+    }
+</style>

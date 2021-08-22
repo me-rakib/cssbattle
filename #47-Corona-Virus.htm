@@ -1,0 +1,100 @@
+<div class="a"></div>
+<div class="b"></div>
+<div class="c"></div>
+<div class="d"></div>
+<style>
+    ::before,
+    ::after {
+        content: '';
+        position: absolute;
+    }
+
+    body {
+        background: #1A4341;
+    }
+
+    div {
+        position: absolute;
+    }
+
+    .a {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        background: #F3AC3C;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .a::after {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        background: #998235;
+        top: 20%;
+        left: 20%;
+    }
+
+    .a::before {
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        background: #998235;
+        top: 65%;
+        left: 40%;
+    }
+
+    .b {
+        width: 10px;
+        height: 55px;
+        background: #F3AC3C;
+        border-radius: 5px 5px 0 0;
+        top: 16.5%;
+        left: 48.8%
+    }
+
+    .b::before {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        background: #998235;
+        top: 70px;
+        left: 24.5px;
+    }
+
+    .b::after {
+        width: 10px;
+        height: 51px;
+        background: #F3AC3C;
+        border-radius: 0 0 5px 5px;
+        top: 129px;
+        z-index: -1;
+    }
+
+    .c,
+    .d {
+        width: 10px;
+        height: 52px;
+        background: #F3AC3C;
+        border-radius: 5px 5px 0 0;
+        transform: rotate(60deg);
+        top: 28.79%;
+        left: 64.7%;
+    }
+
+    .d {
+        transform: rotate(120deg);
+        top: 53.5%;
+        z-index: -1;
+    }
+
+    .c::after,
+    .d::after {
+        width: 10px;
+        height: 51px;
+        background: #F3AC3C;
+        border-radius: 0 0 5px 5px;
+        top: 129px;
+    }
+</style>

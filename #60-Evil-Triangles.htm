@@ -1,0 +1,85 @@
+<div class="a"></div>
+<div class="b"></div>
+<div class="d"></div>
+<div class="e"></div>
+<div class="c"></div>
+<style>
+    ::before,
+    ::after {
+        content: "";
+        position: absolute;
+    }
+
+    body {
+        background: #19191A;
+    }
+
+    div {
+        position: absolute;
+    }
+
+    .a {
+        width: 0;
+        height: 0;
+        border-top: 50px solid #4F77FF;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        top: 25%;
+        left: 25%
+    }
+
+    .a::after {
+        width: 0;
+        height: 0;
+        border-top: 50px solid #4F77FF;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        left: 50px;
+        top: -50px;
+    }
+
+    .b,
+    .c {
+        width: 35px;
+        height: 105px;
+        background: #4F77FF;
+        top: 41%;
+        left: 27%;
+        transform: rotate(-45deg);
+    }
+
+    .c {
+        transform: rotate(45deg);
+        left: 64.2%;
+    }
+
+    .b::before,
+    .c::after {
+        width: 30px;
+        height: 60px;
+        background: #191919;
+        left: -7px;
+        top: -25px;
+        transform: rotate(45deg);
+    }
+
+    .c::after {
+        transform: rotate(135deg);
+        left: 12px;
+    }
+
+    .d,
+    .e {
+        width: 35px;
+        height: 80px;
+        background: #4F77FF;
+        transform: rotate(45deg);
+        top: 42%;
+        left: 41.7%;
+    }
+
+    .e {
+        transform: rotate(-45deg);
+        left: 49.5%
+    }
+</style>

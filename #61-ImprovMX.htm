@@ -1,0 +1,136 @@
+<div class="h"></div>
+<div class="g"></div>
+<div class="c"></div>
+<div class="f"></div>
+<div class="e"></div>
+<div class="d"></div>
+<style>
+    body {
+        background: #191919;
+    }
+
+    .d {
+        width: 200px;
+        height: 10px;
+        background: #5DBCF9;
+        position: absolute;
+        top: 68%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .d::after {
+        content: "";
+        position: absolute;
+        width: 110px;
+        height: 10px;
+        background: #5DBCF9;
+        top: 20pxleft:44.5px;
+    }
+
+    .d::before {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 65px;
+        background: #5DBCF9;
+        top: -75px;
+        left: 95px;
+    }
+
+    .c {
+        width: 90px;
+        height: 10px;
+        position: absolute;
+        background: #5DBCF9;
+        top: 49.3%;
+        left: 29.5%;
+        transform: rotate(-30deg)
+    }
+
+    .c::before {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 32px;
+        background: #5DBCF9;
+    }
+
+    .c::after {
+        content: "";
+        position: absolute;
+        width: 90px;
+        height: 10px;
+        background: #5DBCF9;
+        left: 63.5px;
+        top: 37px;
+        transform: rotate(60deg)
+    }
+
+    .e {
+        width: 150px;
+        height: 8px;
+        background: #191919;
+        position: absolute;
+        top: 64.6%;
+        left: 32%;
+    }
+
+    .f {
+        position: absolute;
+        width: 32px;
+        height: 10px;
+        background: #5DBCF9;
+        top: 59.1%;
+        left: 62.5%;
+        transform: rotate(-60deg)
+    }
+
+    .g {
+        width: 100px;
+        height: 10px;
+        background: #5DBCF9;
+        position: absolute;
+        top: 32%;
+        left: 37.5%
+    }
+
+    .g::before {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 59px;
+        background: #5DBCF9;
+    }
+
+    .g::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 59px;
+        background: #5DBCF9;
+        left: 90%
+    }
+
+    .h {
+        width: 50px;
+        height: 10px;
+        background: #5DBCF9;
+        position: absolute;
+        top: 22%;
+        left: 43.8%;
+    }
+
+    .h::after,
+    .h::before {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 30px;
+        background: #5DBCF9;
+    }
+
+    .h::before {
+        left: 79%;
+    }
+</style>

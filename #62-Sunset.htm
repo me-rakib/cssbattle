@@ -1,0 +1,53 @@
+<div class="d"></div>
+<div class="c"></div>
+<div class="r"></div>
+<div class="l"></div>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background: #191919;
+    }
+
+    .d {
+        width: 150px;
+        height: 150px;
+        border-radius: 50% 50% 0 0;
+        background: #F2AD43;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -65%)
+    }
+
+    .c {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: #FFF58F;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+    }
+
+    .l,
+    .r {
+        width: 100px;
+        height: 100px;
+        background: #824B20;
+        border-radius: 100% 2px 20px 0;
+        position: absolute;
+        top: 50%;
+        left: 56.2%;
+        transform: translate(-50%, 0)
+    }
+
+    .r {
+        left: 31.2%;
+        transform: rotate(90deg);
+        background: #E08027;
+    }
+</style>

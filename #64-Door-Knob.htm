@@ -1,0 +1,52 @@
+<div class="c"></div><span class="c"></span>
+<style>
+    body {
+        background: #191919;
+    }
+
+    .c {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+
+    div {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 30px solid #824B20;
+        background: #E08027;
+        transform: translate(-50%, -50%);
+    }
+
+    span {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 20px solid rgba(0, 0, 0, 0);
+        border-bottom-color: #FFF58F;
+        border-right-color: #FFF58F;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    span::before,
+    span::after {
+        content: "";
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: #FFF58F;
+        position: absolute;
+    }
+
+    span::before {
+        right: -6px;
+        top: -5px;
+    }
+
+    span::after {
+        left: -5px;
+        top: 65px;
+        ;
+    }
+</style>

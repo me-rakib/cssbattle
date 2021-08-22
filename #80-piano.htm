@@ -1,0 +1,75 @@
+<div class="a"></div>
+<div class="b">
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<div class="c">
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<style>
+    body {
+        background: #998235;
+    }
+
+    div {
+        position: absolute;
+    }
+
+    .a {
+        width: 180px;
+        height: 100px;
+        background: #191919;
+        border-radius: 10px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .b {
+        left: 18.7%;
+        top: 36.1%;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    .b>ul>li {
+        display: inline-block;
+        width: 20px;
+        height: 70px;
+        background: #FFF;
+        border-radius: 5px;
+        margin-right: 5px;
+    }
+
+    .c {
+        top: 31.3%;
+        left: 22.5%
+    }
+
+    .c>ul>li {
+        display: inline-block;
+        width: 15px;
+        height: 50px;
+        background: #191919;
+        margin-right: 10px;
+    }
+
+    .c>ul>li:nth-child(2) {
+        margin-right: 35px
+    }
+</style>

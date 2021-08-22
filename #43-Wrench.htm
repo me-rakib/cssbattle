@@ -1,0 +1,44 @@
+<div></div>
+<div class="a"></div>
+<style>
+    body {
+        background: #6592CF;
+    }
+
+    ::before,
+    ::after {
+        content: '';
+        position: absolute;
+    }
+
+    body::before,
+    body::after {
+        width: 100px;
+        height: 250px;
+        background: #6592CF;
+        position: absolute;
+        z-index: 1;
+        top: 25px;
+        left: 45
+    }
+
+    body::after {
+        left: 63.7%
+    }
+
+    div,
+    .a {
+        width: 100px;
+        height: 182px;
+        border-radius: 0 70px 70px 0;
+        border: 30px solid #243D83;
+        position: absolute;
+        top: 10%;
+        left: 13.7%;
+    }
+
+    .a {
+        border-radius: 70px 0 0 70px;
+        left: 46.2%
+    }
+</style>

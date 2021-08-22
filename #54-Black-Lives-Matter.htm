@@ -1,0 +1,77 @@
+<div class="b"></div>
+<div class="c"></div>
+<div class="a"></div>
+<style>
+    ::before,
+    ::after {
+        content: '';
+        position: absolute;
+    }
+
+    body {
+        background: #F9E492;
+    }
+
+    div {
+        position: absolute;
+    }
+
+    .a {
+        width: 100px;
+        height: 40px;
+        background: #191919;
+        top: 46%;
+        left: 37.5%;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .a::before {
+        width: 20px;
+        height: 65px;
+        background: #191919;
+        border-radius: 15px;
+        border: 5px solid #F9E492;
+        top: -34.5px;
+        left: 2px;
+        transform: rotate(60deg);
+    }
+
+    .a::after {
+        width: 50px;
+        height: 45px;
+        background: #191919;
+        top: 100%;
+        left: 25px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .b,
+    .b::before,
+    .b::after,
+    .c {
+        width: 20px;
+        height: 50px;
+        background: #191919;
+        border-radius: 10px;
+        top: 26%;
+        left: 45%;
+    }
+
+    .b::before {
+        top: 10px;
+        left: -25px;
+        height: 45px;
+    }
+
+    .b::after {
+        height: 45px;
+        left: 25px;
+        top: 9.5
+    }
+
+    .c {
+        height: 35px;
+        left: 57.5%;
+        top: 32.5%
+    }
+</style>
