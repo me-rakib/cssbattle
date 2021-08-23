@@ -3,9 +3,6 @@ import os
 # getting list of names
 arr = os.listdir()
 
-# sorting list
-arr.sort()
-
 # unwanted files
 unwanted = [
     '.git',
