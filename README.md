@@ -44,6 +44,7 @@ Here is the list:
 * [#67-Video_reel](./%2367-Video_reel.htm)
 * [#68-Bell](./%2368-Bell.htm)
 * [#69-PushOwl](./%2369-PushOwl.htm)
+* [#73-Happy-Tiger](./%2373-Happy-Tiger.htm)
 * [#78-Ukulele](./%2378-Ukulele.htm)
 * [#79-Tambourine](./%2379-Tambourine.htm)
 * [#80-piano](./%2380-piano.htm)

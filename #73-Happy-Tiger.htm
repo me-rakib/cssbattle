@@ -1,0 +1,104 @@
+<div class="a"></div>
+<div class="c"></div>
+<div class="b">
+    <div class="d"></div>
+    <div class="e"></div>
+</div>
+<style>
+    body {
+        background: #F3AC3C
+    }
+
+    div {
+        position: absolute;
+    }
+
+    ::before,
+    ::after {
+        content: '';
+        position: absolute;
+    }
+
+    .a,
+    .c {
+        width: 40px;
+        height: 40px;
+        background: #1A4341;
+        border-radius: 50%;
+        border: 10px solid #998235;
+        top: 21.7%;
+        left: 28.7%
+    }
+
+    .d {
+        height: 0;
+        width: 0;
+        border-style: solid;
+        border-width: 25px 25px 25px;
+        border-color: #1A4341 transparent transparent;
+        left: 50px;
+        z-index: 1;
+    }
+
+    .c {
+        left: 56.2%;
+    }
+
+    .b {
+        width: 150px;
+        height: 150px;
+        background: #998235;
+        border-radius: 80px 80px 65px 65px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+    }
+
+    .b::before,
+    .b::after {
+        width: 20;
+        height: 20;
+        background: #1A4341;
+        border-radius: 50%;
+        top: 40%;
+        left: 16.5%
+    }
+
+    .b::after {
+        left: 70%
+    }
+
+    .e {
+        width: 100px;
+        height: 40px;
+        background: #FFF;
+        top: 63%;
+        left: 16.5%;
+        border-radius: 20px 20px 50px 50px
+    }
+
+    .e::before,
+    .e::after {
+        height: 10px;
+        width: 20px;
+        border-radius: 0 0 150px 150px;
+        border-style: solid;
+        border-width: 0 10px 10px 10px;
+        border-color: #1A4341;
+        top: 25%;
+        left: 15%
+    }
+
+    .e::after {
+        left: 45%;
+    }
+
+    body::after {
+        width: 10px;
+        height: 20px;
+        background: #1A4341;
+        left: 48.7%;
+        top: 53.2%
+    }
+</style>
