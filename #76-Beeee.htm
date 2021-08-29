@@ -1,0 +1,73 @@
+<div class="a1"></div>
+<div class="a2"></div>
+<div class="a">
+    <div class="b"></div>
+</div>
+<style>
+    body {
+        background: #998235
+    }
+
+    div {
+        position: absolute;
+    }
+
+    :before,
+    :after {
+        content: '';
+        position: absolute;
+    }
+
+    .a {
+        width: 150px;
+        height: 75px;
+        background: #EFF33C;
+        border-radius: 85px;
+        top: 50%;
+        left: 31%;
+        overflow: hidden;
+    }
+
+    .b,
+    .b:before,
+    .b:after {
+        width: 26px;
+        height: 80px;
+        background: #191919;
+    }
+
+    .b::before {
+        width: 25;
+        left: 36
+    }
+
+    .b::after {
+        width: 25;
+        left: 71
+    }
+
+    .a1,
+    .a2 {
+        width: 75px;
+        height: 75px;
+        background: #fff;
+        border-radius: 100% 100% 0 100%;
+        left: 31.2%;
+        top: 25%;
+    }
+
+    .a2 {
+        border-radius: 100% 100% 100% 0;
+        left: 50%
+    }
+
+    .a2:after {
+        width: 15px;
+        height: 15px;
+        background: #191919;
+        border-radius: 50%;
+        top: 95;
+        left: 40;
+        z-index: 1;
+    }
+</style>

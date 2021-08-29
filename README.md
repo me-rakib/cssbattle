@@ -45,6 +45,7 @@ Here is the list:
 * [#68-Bell](./%2368-Bell.htm)
 * [#69-PushOwl](./%2369-PushOwl.htm)
 * [#73-Happy-Tiger](./%2373-Happy-Tiger.htm)
+* [#76-Beeee](./%2376-Beeee.htm)
 * [#78-Ukulele](./%2378-Ukulele.htm)
 * [#79-Tambourine](./%2379-Tambourine.htm)
 * [#80-piano](./%2380-piano.htm)
