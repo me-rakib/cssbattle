@@ -10,6 +10,7 @@ Here is the list:
 * [#12-Wiggly-Moustache](./%2312-Wiggly-Moustache.htm)
 * [#13-Totally-Triangle](./%2313-Totally-Triangle.htm)
 * [#14-Web-Maker-Logo](./%2314-Web-Maker-Logo.htm)
+* [#17-Fidget-Spinner](./%2317-Fidget-Spinner.htm)
 * [#23-Boxception](./%2323-Boxception.htm)
 * [#30-Horizon](./%2330-Horizon.htm)
 * [#31-Equals](./%2331-Equals.htm)
