@@ -12,6 +12,7 @@ Here is the list:
 * [#13-Totally-Triangle](./%2313-Totally-Triangle.htm)
 * [#14-Web-Maker-Logo](./%2314-Web-Maker-Logo.htm)
 * [#17-Fidget-Spinner](./%2317-Fidget-Spinner.htm)
+* [#22-Cloud](./%2322-Cloud.htm)
 * [#23-Boxception](./%2323-Boxception.htm)
 * [#30-Horizon](./%2330-Horizon.htm)
 * [#31-Equals](./%2331-Equals.htm)
