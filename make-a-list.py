@@ -19,7 +19,7 @@ arr_we_need = [ele for ele in arr if ele not in unwanted]
 file_to_write = open("README.md", "w")
 
 # Text want to add first
-text = '''# CSSBattle Solutions #\nThis repository contains all the solutions I have solved as of now.\nHere is the list:\n\n'''
+text = '''# CSSBattle Solutions #\n\nMy profile: [https://cssbattle.dev/player/tanaf](https://cssbattle.dev/player/tanaf)\n\nThis repository contains all the solutions I have solved as of now.\nHere is the list:\n\n'''
 file_to_write.write(text)
 
 for i in arr_we_need:

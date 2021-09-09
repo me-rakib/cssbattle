@@ -1,4 +1,7 @@
 # CSSBattle Solutions #
+
+My profile: [https://cssbattle.dev/player/tanaf](https://cssbattle.dev/player/tanaf)
+
 This repository contains all the solutions I have solved as of now.
 Here is the list:
 
