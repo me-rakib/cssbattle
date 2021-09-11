@@ -14,6 +14,7 @@ Here is the list:
 * [#07-Leafy-Trail](./%2307-Leafy-Trail.htm)
 * [#08-Forking-Crazy](./%2308-Forking-Crazy.htm)
 * [#09-Tesseract](./%2309-Tesseract.htm)
+* [#10-Cloaked-Spirits](./%2310-Cloaked-Spirits.htm)
 * [#11-Eye-of-Sauron](./%2311-Eye-of-Sauron.htm)
 * [#12-Wiggly-Moustache](./%2312-Wiggly-Moustache.htm)
 * [#13-Totally-Triangle](./%2313-Totally-Triangle.htm)
