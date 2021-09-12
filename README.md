@@ -21,6 +21,7 @@ Here is the list:
 * [#14-Web-Maker-Logo](./%2314-Web-Maker-Logo.htm)
 * [#15-Overlap](./%2315-Overlap.htm)
 * [#17-Fidget-Spinner](./%2317-Fidget-Spinner.htm)
+* [#18-Matrix](./%2318-Matrix.htm)
 * [#22-Cloud](./%2322-Cloud.htm)
 * [#23-Boxception](./%2323-Boxception.htm)
 * [#30-Horizon](./%2330-Horizon.htm)
