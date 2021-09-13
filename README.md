@@ -23,6 +23,7 @@ Here is the list:
 * [#16-Eye-of-the-Tigher](./%2316-Eye-of-the-Tigher.htm)
 * [#17-Fidget-Spinner](./%2317-Fidget-Spinner.htm)
 * [#18-Matrix](./%2318-Matrix.htm)
+* [#19-Cube](./%2319-Cube.htm)
 * [#22-Cloud](./%2322-Cloud.htm)
 * [#23-Boxception](./%2323-Boxception.htm)
 * [#30-Horizon](./%2330-Horizon.htm)
