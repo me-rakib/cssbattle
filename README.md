@@ -24,6 +24,7 @@ Here is the list:
 * [#17-Fidget-Spinner](./%2317-Fidget-Spinner.htm)
 * [#18-Matrix](./%2318-Matrix.htm)
 * [#19-Cube](./%2319-Cube.htm)
+* [#20-Ticket](./%2320-Ticket.htm)
 * [#22-Cloud](./%2322-Cloud.htm)
 * [#23-Boxception](./%2323-Boxception.htm)
 * [#30-Horizon](./%2330-Horizon.htm)
