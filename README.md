@@ -27,6 +27,7 @@ Here is the list:
 * [#20-Ticket](./%2320-Ticket.htm)
 * [#22-Cloud](./%2322-Cloud.htm)
 * [#23-Boxception](./%2323-Boxception.htm)
+* [#24-Switches](./%2324-Switches.htm)
 * [#30-Horizon](./%2330-Horizon.htm)
 * [#31-Equals](./%2331-Equals.htm)
 * [#32-Band-aid](./%2332-Band-aid.htm)

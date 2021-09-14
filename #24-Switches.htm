@@ -1,0 +1,50 @@
+<div a>
+    <div b>
+        <div d> </div>
+    </div>
+    <div c>
+        <div e></div>
+    </div>
+    <style>
+        body {
+            background: #62306D;
+        }
+
+        [a] {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            width: 240px;
+            height: 200px;
+        }
+
+        [b],
+        [c] {
+            width: 100px;
+            height: 150px;
+            background: #AA445F;
+            position: absolute;
+            border-radius: 100px
+        }
+
+        [c] {
+            right: 0;
+            bottom: 0;
+            background: #E38F66;
+        }
+
+        [d],
+        [e] {
+            width: 100px;
+            height: 100px;
+            background: #F7EC7D;
+            border-radius: 50%;
+        }
+
+        [d] {
+            position: absolute;
+            bottom: 0;
+        }
+    </style>
