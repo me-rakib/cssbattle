@@ -28,6 +28,7 @@ Here is the list:
 * [#22-Cloud](./%2322-Cloud.htm)
 * [#23-Boxception](./%2323-Boxception.htm)
 * [#24-Switches](./%2324-Switches.htm)
+* [#28-Cups-and-Balls](./%2328-Cups-and-Balls.htm)
 * [#30-Horizon](./%2330-Horizon.htm)
 * [#31-Equals](./%2331-Equals.htm)
 * [#32-Band-aid](./%2332-Band-aid.htm)

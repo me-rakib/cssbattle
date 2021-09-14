@@ -1,0 +1,56 @@
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<style>
+    body {
+        background: #1A4341;
+    }
+
+    body {
+        padding: 0 41.5px 0 22px;
+    }
+
+    ul {
+        height: 100%;
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        align-content: center;
+        row-gap: 20px;
+    }
+
+    li {
+        width: 50px;
+        height: 50px;
+        background: #998235;
+        border-radius: 50%;
+    }
+
+    li:nth-child(2),
+    li:nth-child(4) {
+        background: #F3AC3C;
+    }
+
+    li:nth-child(5),
+    li:nth-child(7) {
+        background: #F3AC3C;
+    }
+
+    li:nth-child(2),
+    li:nth-child(3) {
+        border-radius: 50% 50% 0 0;
+    }
+
+    li:nth-child(5),
+    li:nth-child(8) {
+        border-radius: 0 0 50% 50%;
+    }
+</style>
