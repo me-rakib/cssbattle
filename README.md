@@ -29,6 +29,7 @@ Here is the list:
 * [#23-Boxception](./%2323-Boxception.htm)
 * [#24-Switches](./%2324-Switches.htm)
 * [#25-Blossom](./%2325-Blossom.htm)
+* [#26-Smiley](./%2326-Smiley.htm)
 * [#28-Cups-and-Balls](./%2328-Cups-and-Balls.htm)
 * [#30-Horizon](./%2330-Horizon.htm)
 * [#31-Equals](./%2331-Equals.htm)
