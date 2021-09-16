@@ -31,6 +31,7 @@ Here is the list:
 * [#25-Blossom](./%2325-Blossom.htm)
 * [#26-Smiley](./%2326-Smiley.htm)
 * [#28-Cups-and-Balls](./%2328-Cups-and-Balls.htm)
+* [#29-Suffocate](./%2329-Suffocate.htm)
 * [#30-Horizon](./%2330-Horizon.htm)
 * [#31-Equals](./%2331-Equals.htm)
 * [#32-Band-aid](./%2332-Band-aid.htm)
