@@ -30,6 +30,7 @@ Here is the list:
 * [#24-Switches](./%2324-Switches.htm)
 * [#25-Blossom](./%2325-Blossom.htm)
 * [#26-Smiley](./%2326-Smiley.htm)
+* [#27-Lock-Up](./%2327-Lock-Up.htm)
 * [#28-Cups-and-Balls](./%2328-Cups-and-Balls.htm)
 * [#29-Suffocate](./%2329-Suffocate.htm)
 * [#30-Horizon](./%2330-Horizon.htm)

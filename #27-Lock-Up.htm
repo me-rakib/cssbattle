@@ -1,0 +1,46 @@
+<div a>
+    <div b></div>
+    <div c></div>
+    <div d></div>
+</div>
+<style>
+    body {
+        background: #E38F66
+    }
+
+    div {
+        position: absolute;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+
+    [a] {
+        width: 200px;
+        height: 200px;
+        background: #AA445F;
+        overflow: hidden;
+    }
+
+    [b] {
+        width: 80px;
+        height: 80px;
+        border: 30px solid #F7EC7D;
+    }
+
+    [c],
+    [d] {
+        width: 80px;
+        height: 80px;
+        background: #AA445F;
+        border-radius: 0;
+        top: 70%;
+        left: 70%
+    }
+
+    [d] {
+        top: 30%;
+        left: 30%
+    }
+</style>
