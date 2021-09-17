@@ -1,0 +1,59 @@
+<div a>
+    <div b>
+        <ul>
+            <li>
+            <li>
+            <li>
+            <li>
+            <li>
+            <li>
+            <li>
+        </ul>
+    </div>
+</div>
+<style>
+    body {
+        background: #1A4341
+    }
+
+    div,
+    ul {
+        position: absolute;
+    }
+
+    [a],
+    [b] {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+
+    [a] {
+        overflow: hidden
+    }
+
+    [b] {
+        width: 200px;
+        height: 200px;
+        background: #998235;
+    }
+
+    ul {
+        list-style: none;
+        left: -65;
+        top: 13.5
+    }
+
+    li {
+        width: 250px;
+        height: 20px;
+        background: #F3AC3C;
+    }
+
+    li:nth-child(odd) {
+        background: #1A4341;
+    }
+</style>
