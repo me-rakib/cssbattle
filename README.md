@@ -25,6 +25,7 @@ Here is the list:
 * [#18-Matrix](./%2318-Matrix.htm)
 * [#19-Cube](./%2319-Cube.htm)
 * [#20-Ticket](./%2320-Ticket.htm)
+* [#21-SitePoint-Logo](./%2321-SitePoint-Logo.htm)
 * [#22-Cloud](./%2322-Cloud.htm)
 * [#23-Boxception](./%2323-Boxception.htm)
 * [#24-Switches](./%2324-Switches.htm)
