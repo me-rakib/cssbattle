@@ -1,0 +1,63 @@
+<div a>
+    <ul>
+        <li>
+        <li>
+        <li>
+        <li>
+    </ul>
+</div>
+<div b>
+    <style>
+        body {
+            background: #191919
+        }
+
+        div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        [a] {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        ul {
+            position: absolute;
+            top: -16;
+            left: -40;
+            list-style: none
+        }
+
+        li {
+            width: 150px;
+            height: 30px;
+            background: #4F77FF;
+            margin: 0 0 10px 0
+        }
+
+        [a]:after {
+            content: '';
+            position: absolute;
+            width: 210px;
+            height: 210px;
+            border: 10px solid #191919;
+            border-radius: 50%;
+            top: 50%;
+            right: 30px;
+            box-sizing: border-box;
+            transform: translateY(-50%);
+            -webkit-box-reflect: right -90px;
+        }
+
+        [b] {
+            width: 10px;
+            height: 150px;
+            background: #191919;
+        }
+    </style>
