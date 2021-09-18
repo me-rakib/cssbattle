@@ -61,6 +61,7 @@ Here is the list:
 * [#54-Black-Lives-Matter](./%2354-Black-Lives-Matter.htm)
 * [#55-Windmill](./%2355-Windmill.htm)
 * [#56-Skull](./%2356-Skull.htm)
+* [#57-Pillars](./%2357-Pillars.htm)
 * [#60-Evil-Triangles](./%2360-Evil-Triangles.htm)
 * [#61-ImprovMX](./%2361-ImprovMX.htm)
 * [#62-Sunset](./%2362-Sunset.htm)
