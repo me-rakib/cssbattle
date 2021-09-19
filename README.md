@@ -69,6 +69,7 @@ Here is the list:
 * [#63-Command-Key](./%2363-Command-Key.htm)
 * [#64-Door-Knob](./%2364-Door-Knob.htm)
 * [#65-Max-Volume](./%2365-Max-Volume.htm)
+* [#66-Batmicky](./%2366-Batmicky.htm)
 * [#67-Video_reel](./%2367-Video_reel.htm)
 * [#68-Bell](./%2368-Bell.htm)
 * [#69-PushOwl](./%2369-PushOwl.htm)
