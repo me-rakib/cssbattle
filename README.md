@@ -79,3 +79,4 @@ Here is the list:
 * [#78-Ukulele](./%2378-Ukulele.htm)
 * [#79-Tambourine](./%2379-Tambourine.htm)
 * [#80-piano](./%2380-piano.htm)
+* [#82-Diamond-cut](./%2382-Diamond-cut.htm)
