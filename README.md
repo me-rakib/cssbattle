@@ -81,3 +81,4 @@ Here is the list:
 * [#80-piano](./%2380-piano.htm)
 * [#81-Odoo](./%2381-Odoo.htm)
 * [#82-Diamond-cut](./%2382-Diamond-cut.htm)
+* [#83-Supernova](./%2383-Supernova.htm)
