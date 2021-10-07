@@ -84,3 +84,4 @@ Here is the list:
 * [#83-Supernova](./%2383-Supernova.htm)
 * [#84-Junction](./%2384-Junction.htm)
 * [#85-Pythagoras](./%2385-Pythagoras.htm)
+* [#86-Stairway](./%2386-Stairway.htm)
