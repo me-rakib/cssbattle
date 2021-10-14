@@ -1,0 +1,54 @@
+<ul>
+    <li a>
+    <li b>
+    <li c>
+        <ul x>
+            <li a>
+            <li b>
+            <li c>
+                <style>
+                    * {
+                        margin: 0;
+                        padding: 0
+                    }
+
+                    body {
+                        background: #F3AC3C
+                    }
+
+                    ul {
+                        list-style: none;
+                        position: absolute;
+                        top: 65;
+                        left: 16.2%
+                    }
+
+                    [a],
+                    [b] {
+                        width: 150;
+                        height: 50;
+                        background: #1A4341;
+                        border-radius: 10px 10px 10px 0
+                    }
+
+                    [b] {
+                        width: 100;
+                        height: 50;
+                        border-radius: 0 0 10px 10px;
+                        box-shadow: 20px -20px #1A4341
+                    }
+
+                    [c] {
+                        width: 50;
+                        height: 50;
+                        background: #F3AC3C;
+                        border-radius: 10px;
+                        position: absolute;
+                        bottom: 0;
+                        right: 0
+                    }
+
+                    [x] {
+                        top: 40%;
+                        left: 40%;
+                        transform: rotate(180deg)
