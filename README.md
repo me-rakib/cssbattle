@@ -85,3 +85,4 @@ Here is the list:
 * [#84-Junction](./%2384-Junction.htm)
 * [#85-Pythagoras](./%2385-Pythagoras.htm)
 * [#86-Stairway](./%2386-Stairway.htm)
+* [#88-Tight-Corner](./%2388-Tight-Corner.htm)
