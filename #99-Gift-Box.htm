@@ -1,0 +1,61 @@
+<ul class="a">
+    <li></li>
+    <li></li>
+</ul>
+<ul class="b">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background: #AC474B;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .a {
+        list-style: none;
+        margin-bottom: 20px;
+        display: flex;
+    }
+
+    .a li {
+        width: 20px;
+        height: 20px;
+        border: 10px solid #fff;
+    }
+
+    .a li:first-child {
+        border-radius: 100% 100% 0 100%;
+    }
+
+    .a li:last-child {
+        border-radius: 100% 100% 100% 0;
+        margin-left: -10px
+    }
+
+    .b {
+        width: 140px;
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+
+    }
+
+    .b li {
+        width: 60px;
+        height: 60px;
+        background: #FFFFFF;
+    }
+</style>
